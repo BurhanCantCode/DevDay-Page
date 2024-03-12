@@ -158,6 +158,10 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
+  body
+  {
+    overflow: hidden;
+  }
   .container {
     width: 80%; /* Adjust width for smaller screens */
   }
