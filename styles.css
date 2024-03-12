@@ -1,4 +1,6 @@
-
+body {
+  overflow: hidden;
+}
 /* Define CSS variables for colors */
 :root {
   --dark-blue: #003b66;
