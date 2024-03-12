@@ -148,6 +148,10 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
+  .container {
+    width: 80%; /* Adjust width for smaller screens */
+  }
+
   h1 {
     font-size: 2em;
   }
@@ -157,6 +161,6 @@ p {
   }
 
   .background-text {
-    width: 50%; /* Adjust width for smaller screens */
+    width: 80%; /* Adjust width for smaller screens */
   }
 }
