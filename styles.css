@@ -1,3 +1,4 @@
+
 /* Define CSS variables for colors */
 :root {
   --dark-blue: #003b66;
@@ -21,6 +22,7 @@ body {
   background-color: var(--background-text-color);
   color: var(--white);
   line-height: 1.8;
+  overflow: hidden; /* Disable scrolling */
 }
 
 .parent {
